@@ -1,0 +1,9 @@
+.nowplay {
+    width: 400px;
+    height: 800px;
+    background-color: var(--white_1);
+    margin: 30px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: rgb(0 0 0 / 30%) 4px 2px 15px 1px;
+}

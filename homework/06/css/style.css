@@ -1,0 +1,59 @@
+@import "../css/reset.css";
+
+/* variables.css */
+@import "../css/variables.css";
+/* component */
+@import "../css/components/header.css";
+/* screen */
+@import "../css/screen/main_day.css";
+@import "../css/screen/main_adventures.css";
+@import "../css/screen/main_authors.css";
+
+body {
+	line-height: 1;
+    width: 100%;
+}
+.wrap {
+    width: 100%;
+}
+
+input:focus-visible {
+    outline: 1px solid var(--yellow);
+}
+input::placeholder {
+    color: var(--grey_1);
+    font-size: 14px;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+.sub_title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.starBox {
+    display: flex;
+    margin-bottom: 15px;
+}
+.starBox i {
+    margin-right: 3px;
+    color: var(--yellow);
+}
+/* scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    height: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--grey_1);
+    border-radius: 50px;
+}

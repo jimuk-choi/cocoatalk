@@ -1,0 +1,59 @@
+.creator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.creator__innerBox {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.creator__innerBox__imageBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.creator__innerBox__imageBox img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: rgb(110 71 143) 0px 5px 15px 1px;
+}
+.creator__innerBox__singerName {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.creator__innerBox__genre {
+    font-size: 16px;
+    color: var(--grey_2);
+    margin-bottom: 35px;
+}
+.creator__innerBox__buttonBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.creator__innerBox__buttonBox button {
+    padding: 12px 5px;
+    width: 100px;
+    margin: 0px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: rgb(0 0 0 / 15%) 2px 1px 9px 1px;
+}
+.creator__innerBox__buttonBox button:nth-of-type(1) {
+    background-color: var(--black_1);
+    color: var(--white_1);
+}
+.creator__innerBox__buttonBox button:nth-of-type(2) {
+    background-color: var(--white_1);
+}

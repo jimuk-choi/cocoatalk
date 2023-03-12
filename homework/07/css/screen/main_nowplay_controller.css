@@ -1,0 +1,39 @@
+.controller {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.controller__innerBox {
+    width: 90%;
+}
+.controller__innerBox ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.controller__innerBox ul li {
+    display: flex;
+    justify-content: center;
+}
+.controller__innerBox ul li:nth-child(1) {/* width: 5%; */ font-size: 14px; color: var(--grey_2);}
+.controller__innerBox ul li:nth-child(2) {/* width: 30%; */ font-size: 30px;}
+.controller__innerBox ul li:nth-child(3) {
+    font-size: 30px;
+    background-color: var(--black_1);
+    box-shadow: rgb(0 0 0) 0px 1px 10px 1px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: var(--white_1);
+    position: relative;
+}
+.controller__innerBox ul li:nth-child(4) {/* width: 30%; */ font-size: 30px;}
+.controller__innerBox ul li:nth-child(5) {/* width: 5%; */ font-size: 14px; color: var(--grey_2);}
+
+.controller__innerBox ul li:nth-child(3) i {
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,27 @@
+.adventures {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.adventures__innerBox {
+    width: 90%;
+}
+.adventures__innerBox__innerBox {
+    display: flex;
+    overflow-x: scroll;
+}
+.adventures__innerBox__innerBox__imgBox {
+    width: 100%;
+    margin-right: 20px;
+}
+.adventures__innerBox__innerBox__imgBox img {
+    width: 100px;
+    height: 170px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.adventures__innerBox__innerBox__imgBox .starBox {
+    font-size: 10px;
+    justify-content: center;
+}

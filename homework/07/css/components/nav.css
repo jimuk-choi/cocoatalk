@@ -1,0 +1,39 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.nav__innerBox {
+    background-color: var(--black_1);
+    width: 90%;
+    color: var(--white_1);
+    display: flex;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.nav__innerBox__leftBox {
+    width: 100%;
+}
+.nav__innerBox__leftBox__singer {
+    color: var(--grey_2);
+    font-size: 12px;
+    padding: 5px 0;
+}
+.nav__innerBox__leftBox__song {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav__innerBox__rightBox {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__innerBox__rightBox i {
+    font-size: 14px;
+}
+.nav__innerBox__rightBox a:nth-child(2) i {
+    font-size: 26px;
+}
